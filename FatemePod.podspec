@@ -1,9 +1,9 @@
 Pod::Spec.new do |spec|
-  spec.name         = 'CocoaPodTest'
+  spec.name         = 'FatemePod'
   spec.version      = '1.0.0'
-  spec.summary      = 'CocoaPodTest'
+  spec.summary      = 'FatemePod summary'
   spec.homepage     = 'https://github.com/fkzm/CocoapodTest.git'
-  spec.license      = { :type => 'MIT' }
+  spec.license      = { :file => 'LICENSE', :type => 'MIT'}
   spec.author       = 'Fateme Kazemi'
   spec.source       = { :git => 'https://github.com/fkzm/CocoapodTest.git', :tag => '1.0.0' }
   spec.source_files = 'CocoaPodTest', 'CocoaPodTest/**/*.{h,m,swift}'
